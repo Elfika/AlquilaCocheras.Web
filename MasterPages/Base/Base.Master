@@ -1,0 +1,28 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Base.master.cs" Inherits="AlquilaCocheras.Web.MasterPages.Base" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title>Alquila Cocheras</title>
+    <script src="../../js/jquery/jquery-3.1.1.js"></script>
+    <script src="../../js/jquery/jquery-ui.js"></script>
+    <script src="../../js/scriptsGeneral.js"></script>
+    <link href="../../css/bootstrap/bootstrap.css" rel="stylesheet" type="text/css" />
+    <link href="../../css/jqueryUI/jquery-ui.min.css" rel="stylesheet" type="text/css"/>
+    <link href="../../css/bootstrap/bootstrap-theme.css" rel="stylesheet" type="text/css" />
+    <asp:ContentPlaceHolder ID="head_Base" runat="server">
+       
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form id="form1" runat="server">
+    <div>
+        <asp:ContentPlaceHolder ID="ContentPlaceHolder_Principal_Base" runat="server">
+          
+     
+        </asp:ContentPlaceHolder>
+    </div>
+    </form>
+</body>
+</html>

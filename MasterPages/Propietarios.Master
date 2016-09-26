@@ -1,0 +1,16 @@
+﻿<%@ Master Language="C#" MasterPageFile="~/MasterPages/Base/Base.Master" AutoEventWireup="true" CodeBehind="Propietarios.master.cs" Inherits="AlquilaCocheras.Web.MasterPages.Propietarios" %>
+<asp:Content ID="Content1" ContentPlaceHolderID="head_Base" runat="server">
+    <asp:ContentPlaceHolder ID="ContentPlaceHolder_Head" runat="server">
+    </asp:ContentPlaceHolder>  
+    <div class="navbar navbar-inverse">
+            <ul class="nav navbar-nav">
+                <li class="active"><a href="#">Crear Cochera</a></li>
+                <li><a href="#">Perfil</a></li>
+                <li><a href="#">Reservas</a></li>
+            </ul>
+        </div>  
+</asp:Content>
+<asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder_Principal_Base" runat="server">
+    <asp:ContentPlaceHolder ID="ContentPlaceHolder_Principal" runat="server">
+    </asp:ContentPlaceHolder>    
+</asp:Content>
