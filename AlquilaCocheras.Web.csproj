@@ -66,13 +66,9 @@
     <Reference Include="System.EnterpriseServices" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="css\bootstrap\bootstrap-theme.css" />
-    <Content Include="css\bootstrap\bootstrap-theme.min.css" />
-    <Content Include="css\bootstrap\bootstrap.css" />
+    <Content Include="css\bootstrap\bootstrap-datetimepicker.min.js" />
     <Content Include="css\bootstrap\bootstrap.min.css" />
     <Content Include="css\jqueryUI\jquery-ui.min.css" />
-    <Content Include="css\jqueryUI\jquery-ui.structure.css" />
-    <Content Include="css\jqueryUI\jquery-ui.theme.css" />
     <Content Include="imagenes\imagesJQueryUI\ui-bg_glass_20_555555_1x400.png" />
     <Content Include="imagenes\imagesJQueryUI\ui-bg_glass_40_0078a3_1x400.png" />
     <Content Include="imagenes\imagesJQueryUI\ui-bg_glass_40_ffc73d_1x400.png" />
@@ -85,12 +81,13 @@
     <Content Include="imagenes\imagesJQueryUI\ui-icons_a83300_256x240.png" />
     <Content Include="imagenes\imagesJQueryUI\ui-icons_cccccc_256x240.png" />
     <Content Include="imagenes\imagesJQueryUI\ui-icons_ffffff_256x240.png" />
-    <Content Include="js\bootstrap\bootstrap.js" />
+    <Content Include="js\bootstrap\bootstrap-datetimepicker.min.js" />
     <Content Include="js\bootstrap\bootstrap.min.js" />
+    <Content Include="js\datepicker.js" />
     <Content Include="js\jquery\jquery-3.1.1.js" />
-    <Content Include="js\bootstrap\npm.js" />
     <Content Include="js\jquery\jquery-ui.js" />
-    <Content Include="js\scriptsGeneral.js" />
+    <Content Include="js\scriptGeneral.js" />
+    <Content Include="js\timepicker.js" />
     <Content Include="packages.config" />
     <Content Include="MasterPages\Base\Base.Master" />
     <Content Include="MasterPages\Anonimo.Master" />
@@ -221,12 +218,6 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="imagenes\cocheras\" />
-  </ItemGroup>
-  <ItemGroup>
-    <Content Include="css\bootstrap\bootstrap-theme.css.map" />
-    <Content Include="css\bootstrap\bootstrap-theme.min.css.map" />
-    <Content Include="css\bootstrap\bootstrap.css.map" />
-    <Content Include="css\bootstrap\bootstrap.min.css.map" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>

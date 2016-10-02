@@ -7,9 +7,9 @@
     </asp:ContentPlaceHolder>   
         <div class="navbar navbar-inverse">
             <ul class="nav navbar-nav">
-                <li class="active"><a href="#">Inicio</a></li>
-                <li><a href="#">Login</a></li>
-                <li><a href="#">Registración</a></li>
+                <li class="active"><a href="../default.aspx">Inicio</a></li>
+                <li><a href="../login.aspx">Login</a></li>
+                <li><a href="../registracion.aspx">Registración</a></li>
             </ul>
         </div>
      

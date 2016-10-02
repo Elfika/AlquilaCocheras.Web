@@ -4,9 +4,9 @@
     </asp:ContentPlaceHolder> 
      <div class="navbar navbar-inverse">
             <ul class="nav navbar-nav">
-                <li class="active"><a href="#">Reservar Cochera</a></li>
-                <li><a href="#">Mis reservas</a></li>
-                <li><a href="#">Registración</a></li>
+                <li class="active"><a href="../clientes/reservar.aspx">Reservar Cochera</a></li>
+                <li><a href="../clientes/reservas.aspx">Mis reservas</a></li>
+                <li><a href="../default.aspx">Cerras Sesión</a></li>
             </ul>
         </div>   
 </asp:Content>

@@ -5,12 +5,18 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head runat="server">
     <title>Alquila Cocheras</title>
+    <link href="../../css/jqueryUI/jquery-ui.min.css" rel="stylesheet" type="text/css"/>
+    <link href="../../css/bootstrap/bootstrap.min.css" rel="stylesheet" type="text/css" />
+    
+
     <script src="../../js/jquery/jquery-3.1.1.js"></script>
     <script src="../../js/jquery/jquery-ui.js"></script>
-    <script src="../../js/scriptsGeneral.js"></script>
-    <link href="../../css/bootstrap/bootstrap.css" rel="stylesheet" type="text/css" />
-    <link href="../../css/jqueryUI/jquery-ui.min.css" rel="stylesheet" type="text/css"/>
-    <link href="../../css/bootstrap/bootstrap-theme.css" rel="stylesheet" type="text/css" />
+    <script src="../../js/bootstrap/bootstrap.min.js"></script>
+    <script src="../../js/bootstrap/bootstrap-datetimepicker.min.js"></script>
+    <script src="../../js/scriptGeneral.js"></script>
+    <script src="../../js/datepicker.js"></script>
+    <script src="../../js/timepicker.js"></script>
+    
     <asp:ContentPlaceHolder ID="head_Base" runat="server">
        
     </asp:ContentPlaceHolder>

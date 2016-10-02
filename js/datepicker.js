@@ -11,14 +11,5 @@
     };
     $.datepicker.setDefaults($.datepicker.regional['es']);
 
-    
-    $('#txtHorarioFin').daterangepicker({
-        "timePicker": true,
-        "timePicker24Hour": true,
-        "timePickerIncrement": 30,
-        "showCustomRangeLabel": false
 
-
-    });
 });
-

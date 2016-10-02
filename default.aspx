@@ -16,6 +16,13 @@
             <asp:TextBox ID="txtFechaInicio" runat="server" ClientIDMode="Static" class="input-block-level" placeholder="Fecha Inicio"></asp:TextBox>
             <asp:TextBox ID="txtFechaFin" runat="server" ClientIDMode="Static" class="input-block-level" placeholder="Fecha Fin"></asp:TextBox>
         </div>
+        <div class="form-group">
+       
+              <asp:TextBox ID="txtHorarioInicio" runat="server" data-format="hh:mm:ss" ClientIDMode="Static" class="input-block-level input-append"></asp:TextBox>
+          
+            
+         
+        </div>
         <asp:Button ID="btnFiltrar" runat="server" Text="Buscar" ClientIDMode="Static" class="btn btn-inverse"/>
         </div>
         <%--si no se encuentran resultados mostrar mensaje "No se encontraron resultados"--%>

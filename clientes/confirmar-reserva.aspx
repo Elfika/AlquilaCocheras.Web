@@ -12,7 +12,9 @@
         </div>
         <div class="form-group">
             <asp:Label ID="label3" runat="server" Text="Hora de Entrada: "></asp:Label>
-            <asp:TextBox ID="txtHorarioInicio" runat="server" ClientIDMode="Static" class="input-block-level"></asp:TextBox>
+              <div class="input-group bootstrap-timepicker timepicker">
+            <asp:TextBox ID="txtHorarioInicio" runat="server" ClientIDMode="Static" class="input-block-level form-control input-small"></asp:TextBox>
+              </div>   
             <asp:Label ID="label1" runat="server" Text="Hora de Salida: "></asp:Label>
             <asp:TextBox ID="txtHorarioFin" runat="server" ClientIDMode="Static" class="input-block-level"></asp:TextBox>
         </div>
